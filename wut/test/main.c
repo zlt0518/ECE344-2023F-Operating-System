@@ -19,8 +19,12 @@ int main() {
     library call) that you'd like to see the output of. For example, here's
     how to convert `tests/main-thread-is-0.c` into this format:
 
-   //Write your own test case and fuck up your colleagues!!!!!!
-   //Just kidding, don't be the asshole:)
+   /*
+   Write your own test case and fuck up your colleagues!!!!!!
+   Just kidding, don't be the asshole:)
+   
+   Note: For my implementation, I only managed to pass all the test cases when I took this course(2023F) and I could not guarantee that my implementation would pass all test cases in the future
+   */
 
 
     return 0;
