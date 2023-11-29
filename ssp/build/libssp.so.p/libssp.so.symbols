@@ -1,0 +1,13 @@
+ 0x000000000000000e (SONAME)             Library soname: [libssp.so]
+handle_signal T
+longest_process_name B 4
+register_signal T
+ssp_create T
+ssp_get_status T
+ssp_init T
+ssp_insert T
+ssp_list B 8
+ssp_num B 4
+ssp_print T
+ssp_send_signal T
+ssp_wait T

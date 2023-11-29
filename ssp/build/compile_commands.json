@@ -1,0 +1,80 @@
+[
+  {
+    "directory": "/home/zhoulita/ece344/ssp/build",
+    "command": "cc -Ilibssp.so.p -I. -I.. -Iinclude -I../include -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c17 -O0 -g -D_DEFAULT_SOURCE -fPIC -MD -MQ libssp.so.p/src_ssp.c.o -MF libssp.so.p/src_ssp.c.o.d -o libssp.so.p/src_ssp.c.o -c ../src/ssp.c",
+    "file": "../src/ssp.c",
+    "output": "libssp.so.p/src_ssp.c.o"
+  },
+  {
+    "directory": "/home/zhoulita/ece344/ssp/build",
+    "command": "cc -Itests/libsleep_ms.so.p -Itests -I../tests -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c17 -O0 -g -D_DEFAULT_SOURCE -fPIC -MD -MQ tests/libsleep_ms.so.p/sleep_ms.c.o -MF tests/libsleep_ms.so.p/sleep_ms.c.o.d -o tests/libsleep_ms.so.p/sleep_ms.c.o -c ../tests/sleep_ms.c",
+    "file": "../tests/sleep_ms.c",
+    "output": "tests/libsleep_ms.so.p/sleep_ms.c.o"
+  },
+  {
+    "directory": "/home/zhoulita/ece344/ssp/build",
+    "command": "cc -Itests/arg0-ownership.p -Itests -I../tests -Iinclude -I../include -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c17 -O0 -g -D_DEFAULT_SOURCE -MD -MQ tests/arg0-ownership.p/arg0-ownership.c.o -MF tests/arg0-ownership.p/arg0-ownership.c.o.d -o tests/arg0-ownership.p/arg0-ownership.c.o -c ../tests/arg0-ownership.c",
+    "file": "../tests/arg0-ownership.c",
+    "output": "tests/arg0-ownership.p/arg0-ownership.c.o"
+  },
+  {
+    "directory": "/home/zhoulita/ece344/ssp/build",
+    "command": "cc -Itests/dev-null.p -Itests -I../tests -Iinclude -I../include -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c17 -O0 -g -D_DEFAULT_SOURCE -MD -MQ tests/dev-null.p/dev-null.c.o -MF tests/dev-null.p/dev-null.c.o.d -o tests/dev-null.p/dev-null.c.o -c ../tests/dev-null.c",
+    "file": "../tests/dev-null.c",
+    "output": "tests/dev-null.p/dev-null.c.o"
+  },
+  {
+    "directory": "/home/zhoulita/ece344/ssp/build",
+    "command": "cc -Itests/echo-cat-cat.p -Itests -I../tests -Iinclude -I../include -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c17 -O0 -g -D_DEFAULT_SOURCE -MD -MQ tests/echo-cat-cat.p/echo-cat-cat.c.o -MF tests/echo-cat-cat.p/echo-cat-cat.c.o.d -o tests/echo-cat-cat.p/echo-cat-cat.c.o -c ../tests/echo-cat-cat.c",
+    "file": "../tests/echo-cat-cat.c",
+    "output": "tests/echo-cat-cat.p/echo-cat-cat.c.o"
+  },
+  {
+    "directory": "/home/zhoulita/ece344/ssp/build",
+    "command": "cc -Itests/send-signal.p -Itests -I../tests -Iinclude -I../include -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c17 -O0 -g -D_DEFAULT_SOURCE -MD -MQ tests/send-signal.p/send-signal.c.o -MF tests/send-signal.p/send-signal.c.o.d -o tests/send-signal.p/send-signal.c.o -c ../tests/send-signal.c",
+    "file": "../tests/send-signal.c",
+    "output": "tests/send-signal.p/send-signal.c.o"
+  },
+  {
+    "directory": "/home/zhoulita/ece344/ssp/build",
+    "command": "cc -Itests/sigpipe.p -Itests -I../tests -Iinclude -I../include -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c17 -O0 -g -D_DEFAULT_SOURCE -MD -MQ tests/sigpipe.p/sigpipe.c.o -MF tests/sigpipe.p/sigpipe.c.o.d -o tests/sigpipe.p/sigpipe.c.o -c ../tests/sigpipe.c",
+    "file": "../tests/sigpipe.c",
+    "output": "tests/sigpipe.p/sigpipe.c.o"
+  },
+  {
+    "directory": "/home/zhoulita/ece344/ssp/build",
+    "command": "cc -Itests/single-cat.p -Itests -I../tests -Iinclude -I../include -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c17 -O0 -g -D_DEFAULT_SOURCE -MD -MQ tests/single-cat.p/single-cat.c.o -MF tests/single-cat.p/single-cat.c.o.d -o tests/single-cat.p/single-cat.c.o -c ../tests/single-cat.c",
+    "file": "../tests/single-cat.c",
+    "output": "tests/single-cat.p/single-cat.c.o"
+  },
+  {
+    "directory": "/home/zhoulita/ece344/ssp/build",
+    "command": "cc -Itests/single-sleep.p -Itests -I../tests -Iinclude -I../include -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c17 -O0 -g -D_DEFAULT_SOURCE -MD -MQ tests/single-sleep.p/single-sleep.c.o -MF tests/single-sleep.p/single-sleep.c.o.d -o tests/single-sleep.p/single-sleep.c.o -c ../tests/single-sleep.c",
+    "file": "../tests/single-sleep.c",
+    "output": "tests/single-sleep.p/single-sleep.c.o"
+  },
+  {
+    "directory": "/home/zhoulita/ece344/ssp/build",
+    "command": "cc -Itests/ssp-wait.p -Itests -I../tests -Iinclude -I../include -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c17 -O0 -g -D_DEFAULT_SOURCE -MD -MQ tests/ssp-wait.p/ssp-wait.c.o -MF tests/ssp-wait.p/ssp-wait.c.o.d -o tests/ssp-wait.p/ssp-wait.c.o -c ../tests/ssp-wait.c",
+    "file": "../tests/ssp-wait.c",
+    "output": "tests/ssp-wait.p/ssp-wait.c.o"
+  },
+  {
+    "directory": "/home/zhoulita/ece344/ssp/build",
+    "command": "cc -Itests/subreaper-child.p -Itests -I../tests -Iinclude -I../include -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c17 -O0 -g -D_DEFAULT_SOURCE -MD -MQ tests/subreaper-child.p/subreaper-child.c.o -MF tests/subreaper-child.p/subreaper-child.c.o.d -o tests/subreaper-child.p/subreaper-child.c.o -c ../tests/subreaper-child.c",
+    "file": "../tests/subreaper-child.c",
+    "output": "tests/subreaper-child.p/subreaper-child.c.o"
+  },
+  {
+    "directory": "/home/zhoulita/ece344/ssp/build",
+    "command": "cc -Itests/subreaper-grandchild.p -Itests -I../tests -Iinclude -I../include -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c17 -O0 -g -D_DEFAULT_SOURCE -MD -MQ tests/subreaper-grandchild.p/subreaper-grandchild.c.o -MF tests/subreaper-grandchild.p/subreaper-grandchild.c.o.d -o tests/subreaper-grandchild.p/subreaper-grandchild.c.o -c ../tests/subreaper-grandchild.c",
+    "file": "../tests/subreaper-grandchild.c",
+    "output": "tests/subreaper-grandchild.p/subreaper-grandchild.c.o"
+  },
+  {
+    "directory": "/home/zhoulita/ece344/ssp/build",
+    "command": "cc -Itests/true-false.p -Itests -I../tests -Iinclude -I../include -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c17 -O0 -g -D_DEFAULT_SOURCE -MD -MQ tests/true-false.p/true-false.c.o -MF tests/true-false.p/true-false.c.o.d -o tests/true-false.p/true-false.c.o -c ../tests/true-false.c",
+    "file": "../tests/true-false.c",
+    "output": "tests/true-false.p/true-false.c.o"
+  }
+]

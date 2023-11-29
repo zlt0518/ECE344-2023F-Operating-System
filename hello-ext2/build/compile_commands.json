@@ -1,0 +1,8 @@
+[
+  {
+    "directory": "/home/zhoulita/ece344/hello-ext2/build",
+    "command": "cc -Iext2-create.p -I. -I.. -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c17 -O0 -g -D_DEFAULT_SOURCE -MD -MQ ext2-create.p/src_ext2-create.c.o -MF ext2-create.p/src_ext2-create.c.o.d -o ext2-create.p/src_ext2-create.c.o -c ../src/ext2-create.c",
+    "file": "../src/ext2-create.c",
+    "output": "ext2-create.p/src_ext2-create.c.o"
+  }
+]
