@@ -1,8 +1,0 @@
-[
-  {
-    "directory": "/home/zhoulita/ece344/tps/build",
-    "command": "cc -Itps.p -I. -I.. -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c17 -O0 -g -MD -MQ tps.p/src_main.c.o -MF tps.p/src_main.c.o.d -o tps.p/src_main.c.o -c ../src/main.c",
-    "file": "../src/main.c",
-    "output": "tps.p/src_main.c.o"
-  }
-]
