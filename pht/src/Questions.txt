@@ -1,0 +1,26 @@
+Lab 5 Write-up- on Crowdmark
+
+Assignment description
+For all of your performance numbers, pick a value of -t based on the number of cores on your machine. You need to run this 
+on a machine with at least 4 cores. If your machine does not, you can run it on the UG machines. After picking -t choose 
+a value of -s such that the base hash table completes between 1-2 seconds. For all your performance runs ensure that -t times -s 
+is always the same value (so that your program is always doing the same amount of work).
+
+Q1 (15 points) Describe your first implementation strategy here (the one with a single mutex). 
+Argue why your strategy is correct and contains no data races.
+
+
+Q2 (15 points)Run the tester such that the base hash table completes in 1-2 seconds. 
+Report the relative speedup (or slow down) compared to the base serial implementation with a low number of threads (-t 2) 
+and a high number of threads (matching the number of cores on your machine). Note that the amount of work (-t times -s) 
+should remain constant for both runs. Explain any differences between the two.
+
+
+Q3 (15 points)Describe your second implementation strategy here (the one with multiple mutexes). Argue why your strategy is correct.
+
+
+Q4 (15 points)Run the tester such that the base hash table completes in 1-2 seconds. Report the relative speedup compared to the
+base serial implementation with -t matching the number of cores on your machine (at least 4). Note again that the amount of work 
+(-t times -s) should remain constant. Explain the difference between this implementation and your first, specifically why you get 
+a performance increase.
+
